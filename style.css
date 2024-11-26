@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding: 18px 95px;
+}
+
+/* Starbucks logo */
+.header .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+/* Navigation menu */
+.header nav {
+    display: flex;
+    gap: 45px;
+    margin-left: 30px;
+}
+
+.rightNav {
+
+    margin-left: auto;
+    display: flex;
+    gap: 45px;
+
+}
+
+.rightNav a {
+    margin-top: 11px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.header nav a.active {
+    font-weight: bold;
+    color: #006341;
+    border-bottom: 2px solid #006341;
+    padding-bottom: 2px;
+}
+
+/* Search bar */
+.header .search-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.header .search-container input {
+    border: none;
+    text-decoration: none;
+    padding: 5px 7px;
+}
+
+/* Profile icon */
+.header .profile-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+/* Know More button */
+.know-more-button {
+    background-color: #0e4b41;
+    color: #ffffff;
+    border: none;
+    /* border-radius: 20px; */
+    padding: 32px 16px;
+    /* margin: 20px auto; */
+    display: block;
+    font-size: 14px;
+    /* float: right; */
+    /* text-align: center; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.know-more-button button {
+    padding: 11px;
+    margin-top: -19px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #0e4b41;
+    color: #ffffff;
+    margin-right: 100px;
+}
+
+
+
+/* main Body */
+
+.bodyImg {
+    width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/* Section styling */
+.curations {
+    /* text-align: center; */
+    padding: 80px 20px;
+}
+
+.curations h2 {
+    font-size: 26px;
+    color: #1e3932;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-left: 115px;
+}
+
+/* Curations container */
+.curation-items {
+    display: flex;
+    justify-content: center;
+    gap: 114px;
+    flex-wrap: wrap;
+}
+
+/* Individual curation item */
+.curation-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+/* Image styling */
+.curation-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Caption styling */
+.curation-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+/* Section styling */
+.recommendations {
+    padding: 40px 20px;
+    /* text-align: center; */
+    background-color: #edebe9;
+}
+
+.recommendations h2 {
+    font-size: 24px;
+    color: #006341;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transform: translate(100px );
+}
+
+.view-menu {
+    color: #006341;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    transform: translate(-40px , -32px);
+    /* transform: translateX(32px); */
+}
+
+/* Cards container */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 355px;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* Image styling */
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Product details */
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Add Item button */
+.add-button {
+    background-color: #006341;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    align-self: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #004a30;
+}
+
+/* Arrow buttons */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: -15px;
+}
+
+.arrow-right {
+    right: -15px;
+}
+
+.arrow svg {
+    fill: #666;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+.recommendations2 {
+    padding: 40px 20px;
+    /* text-align: center; */
+    background-color: #edebe9;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.recommendations2 h2 {
+    font-size: 24px;
+    color: #006341;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transform: translate(143px );
+}
+
+.view-menu2 {
+    color: #006341;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    /* margin-right: 20px; */
+    transform: translate(-40px , -32px);
+    /* transform: translateX(32px); */
+}
+
+.bodyImg2 img{
+    width: 50%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 0px 0px 67px 0px; */
+    /* margin-bottom: 30px; */
+    border-radius: 30px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0c3823;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: fit-content;
+    margin: auto;
+    padding: 0 75px;
+}
+
+.footer-logo img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    gap: 40px
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: start;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    /* text-align: start; */
+}
+
+.footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: start;
+}
+
+
+.social-icons{
+
+    display: flex;
+    gap: 20px;
+    /* transform: translateX(40px); */
+
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social-icons img, .app-download img {
+    width: 20px;
+    /* margin: 0 5px; */
+}
+
+.app-download img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
