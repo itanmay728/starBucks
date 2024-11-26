@@ -1,216 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks Header</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
 </head>
-
 <body>
-
-    <header class="header">
-        <img src="./Img/logo.png" alt="Starbucks Logo" class="logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Gift</a>
-            <a href="#">Order</a>
-            <a href="#">Pay</a>
-            <a href="#">Store</a>
-        </nav>
-
-        <div class="rightNav">
-            <div class="search-container">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" placeholder="Looking for something specific?">
+    <div id="main">
+        <div id="nav">
+            <div id="nav_part_1">
+                <img src="https://www.starbucks.in/assets/icon/logo.png" alt="">
+                <h3 style="color: rgb(5, 111, 5);"><u><b>Home</b></u></h3>
+                <h3>Gift</h3>
+                <h3>Order</h3>
+                <h3>Pay</h3>
+                <h3>Store</h3>
             </div>
-            <a href=""><i class="fa-regular fa-lg fa-circle-user"></i></a>
-        </div>
-    </header>
-
-    <a href="#" class="know-more-button">
-        <button type="submit" style="float: right;">Know More</button>
-    </a>
-
-
-    <img class="bodyImg" src="./Img/img1.png" alt="">
-
-
-
-    <section class="curations">
-        <h2>Handcrafted Curations</h2>
-        <div class="curation-items">
-            <!-- Curation Item 1 -->
-            <div class="curation-item">
-                <img src="./Img/img2.webp" alt="Bestseller">
-                <p>Bestseller</p>
-            </div>
-            <!-- Curation Item 2 -->
-            <div class="curation-item">
-                <img src="./Img/img3.webp" alt="Drinks">
-                <p>Drinks</p>
-            </div>
-            <!-- Curation Item 3 -->
-            <div class="curation-item">
-                <img src="./Img/img4.webp" alt="Food">
-                <p>Food</p>
-            </div>
-            <!-- Curation Item 4 -->
-            <div class="curation-item">
-                <img src="./Img/img5.webp" alt="Merchandise">
-                <p>Merchandise</p>
-            </div>
-            <!-- Curation Item 5 -->
-            <div class="curation-item">
-                <img src="./Img/img6.webp" alt="Coffee At Home">
-                <p>Coffee At Home</p>
-            </div>
-            <!-- Curation Item 6 -->
-            <div class="curation-item">
-                <img src="./Img/img7.webp" alt="Ready to Eat">
-                <p>Ready to Eat</p>
+            <div id="nav_part_2">
+                <input type="search"  placeholder=" &#160;  looking for something specific?">
+                <a href=""><i class="fa-regular fa-circle-user"></i></a>
             </div>
         </div>
-    </section>
-
-
-
-    <section class="recommendations">
-        <h2>Barista Recommends</h2>
-        <small><a href="#" class="view-menu">View Menu</a></small>
-        <div class="cards">
-            <!-- Left Arrow -->
-            <div class="arrow arrow-left">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                </svg>
-            </div>
-
-            <!-- Card 1 -->
-            <div class="card">
-                <img src="./Img/img8.webp" alt="Cappuccino">
-                <h3>Cappuccino</h3>
-                <p>SHORT (237 mL)</p>
-                <p class="price">₹ 283.50</p>
-                <button class="add-button">Add Item</button>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="card">
-                <img src="./Img/img9.webp" alt="Signature Hot Chocolate">
-                <h3>Signature Hot Chocolate</h3>
-                <p>SHORT (237 mL), 284 kcal</p>
-                <p class="price">₹ 309.75</p>
-                <button class="add-button">Add Item</button>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card">
-                <img src="./Img/img10.webp" alt="Vanilla Milkshake">
-                <h3>Vanilla Milkshake</h3>
-                <p>TALL (354 mL), 531 kcal</p>
-                <p class="price">₹ 378.00</p>
-                <button class="add-button">Add Item</button>
-            </div>
-
-            <!-- Right Arrow -->
-            <div class="arrow arrow-right">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" />
-                </svg>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-    <section class="recommendations2">
-        <h2>Learn more about the world of coffee!</h2>
-        <small><a href="#" class="view-menu2">Discover More</a></small>
-
-        <div class="bodyImg2">
-            <img  src="./Img/img11.jpg" alt="">
-        </div>
-    </section>
-
-
-
-
-
-    <footer>
-        <div class="footer-container">
+        <div id="heading">
             
-            <div class="footer-links">
-
-                <div class="footer-logo">
-                    <img src="./Img/logo.png" alt="Starbucks Logo">
-                </div>
-
-                <div class="footer-column">
-                    <h4>About Us</h4>
-                    <a href="#">Our Heritage</a>
-                    <a href="#">Coffeehouse</a>
-                    <a href="#">Our Company</a>
-                </div>
-                <div class="footer-column">
-                    <h4>Responsibility</h4>
-                    <a href="#">Diversity</a>
-                    <a href="#">Community</a>
-                    <a href="#">Ethical Sourcing</a>
-                    <a href="#">Environmental Stewardship</a>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="footer-column">
-                    <h4>Quick Links</h4>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">FAQs</a>
-                    <a href="#">Starbucks India Mobile App Terms of Use</a>
-                    <a href="#">Customer Service</a>
-                    <a href="#">Delivery</a>
-                    <a href="#">Season's Gifting</a>
-                    <a href="#">Loyalty Program Terms and Conditions</a>
-                    <a href="#">Starbucks Rewards Day Offer</a>
-                    <a href="#">Diwali Bonus Star Offer</a>
-                    <a href="#">Beverage Subscription</a>
-                </div>
-                <div class="footer-column">
-                    <h4>Social Media</h4>
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-2x fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-2x fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-2x fa-twitter"></i></a>
+            <button> Know More </button>
+        </div>
+        <div id="content">
+           
+            <div id="content_part_2">
+                <div id="part2_1">
+                    <img src="./startbucks img/Dashboards_Banner_Bg_Item_App_and_Web_436875adc1.png" alt="">
+                    <div id="part2_2">
+                        <p>Introducing</p>
+                        <h2>Gift a Starbucks</h2>
+                        <p>This festive season , We bring to you the perfect gifting story from our India exclusive limited-edition range</p>
+                        <h6>Starting From</h6>
+                        <h2>&#8377; 480.oo</h2>
                     </div>
-                    
-                </div>
-
-                <div class="footer-column">
-                    <div class="app-download">
-                        <a href="#"><img src="./Img/img12.png" alt="App Store"></a>
-                        <a href="#"><img src="./Img/img13.png" alt="Google Play"></a>
+                </div>              
+                <button><b>Know More</b></button>
+            </div>
+            <br>
+            <br>
+            <div id="content_part_1">
+                <h1 style="color: rgb(3, 43, 3);"> <b>Handcrafted Curations</b></h1>
+                <div id="part1_1">
+                    <div class="img1">
+                        <img src="./startbucks img/Bestseller.webp " alt="">
+                        <h5>Bestseller</h5>
+                    </div>
+                    <div class="img1">
+                        <img src="./startbucks img/Drinks.webp" alt="">
+                        <h5>Drinks</h5>
+                    </div>
+                    <div class="img1">
+                        <img src="./startbucks img/Food.webp" alt="">
+                        <h5>Food</h5>
+                    </div>
+                    <div class="img1">
+                        <img src="./startbucks img/Merchandise.webp" alt="">
+                        <h5>Merchandise</h5>
+                    </div>
+                    <div class="img1">
+                        <img src="./startbucks img/CoffeeAtHome.webp" alt="">
+                        <h5>Coffee At Home</h5>
+                    </div>
+                    <div class="img1">
+                        <img src="./startbucks img/ReadyToEat.webp" alt="">
+                        <h5>Ready to Eat</h5>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
+          
+        </div>
+
+        <div id="content2">
+           <div id="content2_1">
+            <h1>Barista Recommends</h1>
+            <div id="content2_2">
+            <div class="content21">
+                <div id="b1">
+                    <div id="b2">
+                        <img src="startbucks img/1.webp" alt="">
+                    </div>
+                    <div id="b3">
+                    <h3>Cappuccino</h3>
+                    <h6>Short()</h6>
+                    </div>
+                </div>
+                <div class="part32">
+                    <h6><B>rs 283.</B>59</h6>
+                    <button>Add item</button>
+                </div>
+            </div>
+            <div class="content21">
+                <div id="b1">
+                    <div id="b2">
+                        <img src="startbucks img/2.webp" alt="">
+                    </div>
+                    <div id="b3">
+                    <h3>Signature Hot Chocolate</h3>
+                    <h6>SHORT(237ml).513 Kcal</h6>
+                    </div>
+                </div>
+                <div class="part32">
+                    <h6>&#8377;  253.00</h6>
+                    <button>Add item</button>
+                </div>
+            </div>
+            <div class="content21">
+                <div id="b1">
+                    <div id="b2">
+                        <img src="startbucks img/3.webp" alt="">
+                    </div>
+                    <div id="b3">
+                    <h3>Vanilla Milkshake </h3>
+                    <h6>PER SERVE (85 g) -390 Kcal</h6>
+                    </div>
+                </div>
+                <div class="part32">
+                    <h6>&#8377;  288.75</h6>
+                    <button>Add item</button>
+                </div>
+            </div>
+            </div>
+            </div>
+
+            <div id="content3">
+                <h1>Lern more about the world of coffee!</h1>
+                <div id="image">
+                    <div class="image1">
+                    <h1> Art & Science Of COffee Brewing</h1>
+                    <p>MAster the perfect brew with Starbucks! Learn the art and Science of coffee brewing.</p>
+                    <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div id="footer1">
+                <img class="first" src="https://www.starbucks.in/assets/icon/logo.png" alt="">
+                <div class="footer_links">
+                    <h2>About us </h2>
+                    <h6>Our Heritage</h6>
+                    <h6>Our Company</h6>
+                    <h6>Coffeehouse</h6>
+                </div>
+                <div class="footer_links">
+                    <h2>Responsibility</h2>
+                    <h6>Community</h6>
+                    <h6>Ethical Sourcing</h6>
+                    <h6>Environment</h6>
+                    <h6>Diversity</h6>
+                </div>
+                <div class="footer_links">
+                    <h2>Quick Links</h2>
+                    <h6>Delivery</h6>
+                    <h6>Season's Gifting</h6>
+                    <h6>Careers</h6>
+                    <h6>Customers Service</h6>
+                    <h6>FAQs</h6>
+                </div>
                 
-                <div>
-                    <a href="#">Web Accessibility</a> |
-                    <a href="#">Privacy Statement</a> |
-                    <a href="#">Terms of Use</a> |
-                    <a href="#">Contact Us</a>
+                <div class="footer_links">
+                    <h2>SOCIAL MEDIA</h2>
+                    <div class="footer_links1">
+                        <img  src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+                        <img  src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-f.png" alt="facebook-f"/>
+                        <img  src="https://img.icons8.com/glyph-neue/64/FFFFFF/twitter.png" alt="twitter"/>
+                    </div>
                 </div>
 
-                <small>© 2024 Starbucks Coffee Company. All rights reserved.</small>
+                <div class="footer_links2">
+                  <img src="https://www.starbucks.in/assets/images/appstoreiOS.png" alt="">
+                  <img src="https://www.starbucks.in/assets/images/appstoreAndroid.png" alt="">
+                </div>
+
+            </div>
+            <div id="footer2">
+                <div id="contactus">
+                    <h3>Web Accessibility</h3>
+                    <h3>|</h3>
+                    <h3>Privacy statement</h3>
+                    <h3>|</h3>
+                    <h3>Terms of Use </h3>
+                    <h3>|</h3>
+                    <h3>Contact Us</h3>
+                </div>
+                <h6>&copy; 2023 StarbucksCoffeeCompany.Allrightsreserved</h6>
             </div>
         </div>
-    </footer>
+        </div>
+    </div>
 </body>
-
 </html>
